@@ -2,6 +2,7 @@
 # Step-by-Step Guide to Create a GitHub Account, Clone a Repository, and Upload a File
 
 ## Part 1: Create a GitHub Account
+[Video of Solution](https://vimeo.com/854033912?share=copy)
 
 1. **Navigate to GitHub's Website**
    - Open your preferred web browser and go to [GitHub's website](https://github.com/).
