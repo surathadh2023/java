@@ -16,39 +16,35 @@
    - Name the file `ShoppingCart.java`.
 
 4. **Copy and Paste the Starter Code**:
-   - Copy the provided starter code and paste it into the `ShoppingCart.java` file you just created.
-   
    ```java
+   package ex05_3_exercise;
 
-package ex05_3_exercise;
+   public class ShoppingCart {
 
-public class ShoppingCart {
+       public static void main(String[] args) {
+           // local variables
+           String custName = "Mary Smith";
+           String message;
+           double price = 21.99;
+           int quantity = 2;
+           double tax = 1.04;
 
-    public static void main(String[] args) {
-        // local variables
-        String custName = "Mary Smith";
-        String message;
-        double price = 21.99;
-        int quantity = 2;
-        double tax = 1.04;
+           String items[];
+           items = new String[4];
+           items[0] = "Shirt";
+           items[1] = "Belt";
+           items[2] = "Scarf";
+           items[3] = "Skirt";
 
-        String items[];
-        items = new String[4];
-        items[0] = "Shirt";
-        items[1] = "Belt";
-        items[2] = "Scarf";
-        items[3] = "Skirt";
-        
-        message = custName + " wants to purchase "+items.length+" items.";
-        System.out.println(message);
-        
-       // Iterate through and print out the items from the items array
+           message = custName + " wants to purchase "+items.length+" items.";
+           System.out.println(message);
 
-        
-    }    
-}
+          // Iterate through and print out the items from the items array
 
-```
+       }    
+   }
+   ```
+   - Paste the above starter code into the `ShoppingCart.java` file you just created.
 
 5. **Iterate Through the `items` Array**:
    - After the line where the `message` is printed (i.e., `System.out.println(message);`), print the string "Items purchased: ".
