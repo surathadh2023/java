@@ -51,4 +51,27 @@ public class ShoppingCart {
    - Name the file `ShoppingCart.java`.
    - Copy and paste the starter code provided above into this file.
 
-... (rest of the content remains unchanged) ...
+4. **Declare and Initialize the outOfStock Variable**:
+   - Within the `main` method, after the `total` calculation, declare a boolean variable named `outOfStock` and initialize it.
+
+5. **Modify the Message for Quantity**:
+   - Below the `outOfStock` declaration, use an `if` statement to test the value of `quantity`.
+   - If `quantity` is greater than 1, concatenate an 's' to the `message` variable.
+
+6. **Test the outOfStock Variable**:
+   - Use an `if | else` statement to test the value of `outOfStock`.
+   - If `outOfStock` is true, print a message to let the user know the item is unavailable.
+   - If `outOfStock` is false, print the `message` variable, followed by the total cost with tax.
+
+7. **Run the Java Program**:
+   - In the File Explorer, right-click on the `ShoppingCart.java` file.
+   - Choose "Run Java".
+   - You should see the printed messages in the terminal at the bottom.
+
+8. **Challenge**:
+   - Try running the program with `outOfStock` set to `true` and then again with `outOfStock` set to `false`.
+   - Observe the different outputs.
+
+---
+
+**Note**: This exercise will help you understand the use of conditionals in Java. Through the use of the `if` and `else` keywords, you can direct the flow of your program based on the conditions you specify. Make sure to follow the instructions closely and refer to the starter code provided above.
